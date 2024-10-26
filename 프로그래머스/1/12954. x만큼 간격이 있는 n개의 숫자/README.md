@@ -18,7 +18,7 @@
 
 2024년 10월 27일 00:51:59
 
-### 코드 문제해결 기록
+### ❇️ 코드 문제해결과정 기록
 > https://github.com/j-hann/algorithm-study/commit/7a118f39b598b6222bd966dcc838da28e7ecded1#comments
 
 ### 문제 설명
