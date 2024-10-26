@@ -18,6 +18,9 @@
 
 2024년 10월 27일 00:51:59
 
+### 코드 문제해결 기록
+> https://github.com/j-hann/algorithm-study/commit/7a118f39b598b6222bd966dcc838da28e7ecded1#comments
+
 ### 문제 설명
 
 <p>함수 solution은 정수 x와 자연수 n을 입력 받아, x부터 시작해 x씩 증가하는 숫자를 n개 지니는 리스트를 리턴해야 합니다. 다음 제한 조건을 보고, 조건을 만족하는 함수, solution을 완성해주세요.</p>
