@@ -18,6 +18,9 @@
 
 2024년 10월 27일 23:02:56
 
+### ❇️ 코드 문제해결과정 Comments 기록
+> https://github.com/j-hann/algorithm-study/commit/e9415ef1e720fac1cbce8e7a0281e833af4e8e1b
+
 ### 문제 설명
 
 <p>문자열 s를 숫자로 변환한 결과를 반환하는 함수, solution을 완성하세요.</p>
