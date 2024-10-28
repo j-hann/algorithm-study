@@ -18,6 +18,9 @@
 
 2024년 10월 28일 21:08:58
 
+### ❇️ 코드 문제해결과정 Comments 기록
+> https://github.com/j-hann/algorithm-study/commit/2c9e25787f32f755b856d55c568a10fa9ad59564
+
 ### 문제 설명
 
 <p>임의의 양의 정수 n에 대해, n이 어떤 양의 정수 x의 제곱인지 아닌지 판단하려 합니다.<br>
