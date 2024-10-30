@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 75.2 MB, 시간: 0.75 ms
+메모리: 73.3 MB, 시간: 0.63 ms
 
 ### 구분
 
@@ -16,10 +16,7 @@
 
 ### 제출 일자
 
-2024년 10월 30일 13:55:42
-
-### ❇️ 코드 문제해결과정 Comments 기록
-> https://github.com/j-hann/algorithm-study/commit/e4514fff7c206f7c038f278939c2403dd2b6ae68#diff-ac738cef7b9b8bcc6aad287f8380a7056177ca2ded135597a4d157e8994fbc1dR21
+2024년 10월 30일 19:19:41
 
 ### 문제 설명
 
