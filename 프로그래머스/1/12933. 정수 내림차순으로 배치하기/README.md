@@ -18,6 +18,9 @@
 
 2024년 10월 30일 13:55:42
 
+### ❇️ 코드 문제해결과정 Comments 기록
+> https://github.com/j-hann/algorithm-study/commit/e4514fff7c206f7c038f278939c2403dd2b6ae68#diff-ac738cef7b9b8bcc6aad287f8380a7056177ca2ded135597a4d157e8994fbc1dR21
+
 ### 문제 설명
 
 <p>함수 solution은 정수 n을 매개변수로 입력받습니다. n의 각 자릿수를 큰것부터 작은 순으로 정렬한 새로운 정수를 리턴해주세요. 예를들어 n이 118372면 873211을 리턴하면 됩니다.</p>
