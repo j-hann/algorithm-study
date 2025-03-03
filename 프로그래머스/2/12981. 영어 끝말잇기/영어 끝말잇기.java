@@ -19,7 +19,7 @@ class Solution {
             //현재 단어
             String currentWord = words[i];
             //이전 단어
-            String previousWord = words[i -1 ];
+            String previousWord = words[i - 1];
             
             //단어 끝 체크 -> 이전 단어 끝이랑 현재 단어 첫번째가 맞지 않거나, 현재 단어가 wordRelay에 존재하면
             if(previousWord.charAt(previousWord.length() - 1) != currentWord.charAt(0) || wordRelay.contains(currentWord)){ 
