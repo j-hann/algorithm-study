@@ -2,7 +2,7 @@ import java.util.*;
 
 class Solution {
     public int solution(int[] bandage, int health, int[][] attacks) {
-        int answer = health;
+         int answer = health;
          int[] time = new int[attacks[attacks.length - 1][0] + 1];
  
          for (int i = 0; i < attacks.length; i++) {
