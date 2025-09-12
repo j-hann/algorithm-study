@@ -9,25 +9,19 @@
 //=> 2차원 배열 순회하면서 최대값, 최소값 구하기
 //안쪽 배열, 각 배열의 원소만 비교하면 됨
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Collections;
-import java.util.stream.Collectors;
-
 class Solution {
     public int solution(int[][] sizes) {
         int answer = 0;
+        int widthNumber = 0;
+        int heightNumber = 0;
         
-        List<Integer> maxNumberList = Arrays.stream(sizes)
-                .map(arr -> Math.max(arr[0], arr[1]))
-                .collect(Collectors.toList());
-
-        List<Integer> minNumberList = Arrays.stream(sizes)
-                .map(arr -> Math.min(arr[0], arr[1]))
-                .collect(Collectors.toList());
-
-        int widthNumber = Collections.max(maxNumberList);
-        int heightNumber = Collections.max(minNumberList);
+        for(int i = 0; i < sizes.length; i++){
+            int maxNumber =  Math.max(sizes[i][0], sizes[i][1]);
+            int minNumber =  Math.min(sizes[i][0], sizes[i][1]);
+            
+            widthNumber = Math.max(widthNumber, maxNumber);
+            heightNumber = Math.max(heightNumber, minNumber);
+        }
 
         answer = widthNumber * heightNumber;
 
