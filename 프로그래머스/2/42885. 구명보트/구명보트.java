@@ -8,7 +8,7 @@
 //가장 작은 수랑 큰 숫자를 짝지어서 조건 만족 시키는지 확인, 두 합이 limit보다 작은지 체크
 //투포인터 방식으로 양쪽에서 인덱스 이동하면서 체크, 인덱스가 같아질 때까지 카운트 하면서 반복
 //무게가 limit 이상이면 끝 인덱스 왼쪽으로 이동
-//limit보다 같거나 작으면 끝 인덱스 이동과 함께, 첫 인덱스도 오른쪽으로 이동  
+//limit보다 같거나 작으면 첫 인덱스도 오른쪽으로 이동
 
 import java.util.Arrays;
 
@@ -17,18 +17,16 @@ class Solution {
         int answer = 0;
         int lightWeightIndex = 0;
         int heavyWeightIndex = people.length-1;
-        
+
         Arrays.sort(people);
-        
+
         while(lightWeightIndex <= heavyWeightIndex){
-            
+
             if(people[lightWeightIndex] +  people[heavyWeightIndex] <= limit){
                 lightWeightIndex++;
-                heavyWeightIndex--;
-            } else {
-                heavyWeightIndex--;
             }
-            
+
+            heavyWeightIndex--;
             answer++;
         }
 
