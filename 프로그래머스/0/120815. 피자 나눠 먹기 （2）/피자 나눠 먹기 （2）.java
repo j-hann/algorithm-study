@@ -9,24 +9,25 @@
 //(큰 수, 작은 수) -> (작은 수, 큰 수 % 작은수)
 // -> 이 과정 반복해도 최대공약수 변하지 x
 
+//최소공배수 공식 정리
+//((n * 6) / gcd(n, 6)) / 6 -> n / gcd(n, 6)
+
 class Solution {
     public int solution(int n) {
         int answer = 0;
-        
-        int maxNumber = Math.max(n, 6);
-        int minNumber = Math.min(n, 6);
-        
-        while(minNumber != 0){
-            int remainder = maxNumber % minNumber;
-
-            maxNumber = minNumber;
-            minNumber = remainder;
-        }
-        
-        int gcd = maxNumber;
-        int lcm = (n * 6) / gcd;   
-        answer = lcm / 6;
+        answer = n / gcd(n, 6);
         
         return answer;
+    }
+    
+    private int gcd(int num1, int num2){
+        
+        while(num2 != 0){
+            int remainder = num1 % num2;
+            num1 = num2;
+            num2 = remainder;
+        }
+        
+        return num1;
     }
 }
